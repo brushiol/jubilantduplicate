@@ -2,18 +2,36 @@
 <html>
 <head>
 	<title>JB jubilant duplicate</title>
-	<link rel="stylesheet" href="style.css">
-	<style>
-		.center {
-			display: block;
-			margin: auto;
-		}
-	</style>
+	<!--<link rel="stylesheet" href="style.css">-->
+    <style>
+      /* Center the image */
+      img {
+        display: block;
+        margin: 0 auto;
+      }
+
+      /* Disable anti-aliasing for images */
+      img {
+        -webkit-font-smoothing: none;
+        -moz-osx-font-smoothing: none;
+        image-rendering: -moz-crisp-edges; /* Firefox */
+        image-rendering: -webkit-optimize-contrast; /* WebKit (non-Firefox) */
+        image-rendering: -o-crisp-edges; /* Opera */
+        image-rendering: pixelated; /* CSS4 (currently unsupported) */
+        image-rendering: crisp-edges; /* CSS4 (currently unsupported) */
+      }
+
+      @font-face {
+        font-family: 'Typewriter';
+        src: url('https://brushiol.github.io/jubilantduplicate/images/fonts/typewriter-font.ttf');
+      }
+
+      body {
+        font-family: 'Typewriter', monospace;
+      }
+    </style>
 </head>
     <style>
-        div.container {
-            background-color: #d1d1d1;
-        }
         div.container p {
             text-align: center;
             font-family: Typewriter;
@@ -21,11 +39,11 @@
             text-decoration: none;
             text-transform: none;
             color: #000000;
-            background-color: #ffffff;
+            background-color: #909090;
         }
     </style>
     <div class="container">
         <p>Jubilant Duplicate</p>
     </div>
-    <img src="test.gif" class=center width="450" height="450">
+    <img src="https://brushiol.github.io/jubilantduplicate/images/test.gif" class=center width="550" height="450">
 </html>

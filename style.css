@@ -20,3 +20,12 @@ img {
   image-rendering: pixelated; /* CSS4 (currently unsupported) */
   image-rendering: crisp-edges; /* CSS4 (currently unsupported) */
 }
+
+@font-face {
+  font-family: 'Typewriter';
+  src: url('path/to/typewriter-font.ttf');
+}
+
+body {
+  font-family: 'Typewriter', monospace;
+}

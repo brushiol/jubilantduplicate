@@ -1,0 +1,8 @@
+img {
+  image-rendering: pixelated;
+}
+
+body {
+  -webkit-font-smoothing: none;
+  -moz-osx-font-smoothing: none;
+}

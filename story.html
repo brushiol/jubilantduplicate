@@ -30,31 +30,43 @@
         }
 
         @font-face {
-            font-family: 'Typewriter';
-            src: url('https://brushiol.github.io/jubilantduplicate/data/fonts/pixelbug.ttf');
+            font-family: 'LongPix';
+            src: url('data/fonts/longpixel.ttf');
         }
 
         body {
-            font-family: 'Typewriter', monospace;
+            font-family: 'LongPix', monospace;
+        }
+    </style>
+
+    <style>
+            html, body {
+                height: 100%;
+                margin: 0;
+            }
+            body {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        div.container p {
+            padding-top: 20px;
+            font-family: LongPix;
+            font-size: 45px;
+            text-decoration: none;
+            text-transform: none;
+            color: #000000;
         }
     </style>
 </head>
-<style>
-    div.container p {
-        text-align: center;
-        font-family: Typewriter;
-        font-size: 50px;
-        text-decoration: none;
-        text-transform: none;
-        color: #000000;
-        background-color: #909090;
-    }
-</style>
-<div class="container">
-    <p>Jubilant Duplicate</p>
-</div>
-<div style="background-color: #ccc; display: flex; justify-content: center; align-items: center; height: 700px; width: 528px;">
-    <img src="https://brushiol.github.io/jubilantduplicate/data/images/storystuff/jdcomix0001.gif" style="position: absolute; top: 30%; width=" 550 " height="450 ">
+
+<body>
+    <div class="container" style="text-align: center;">
+        <div style="background-color: #ccc; display:; height: 700px; width: 550px;">
+            <p>Jubilant Duplicate</p>
+            <img src="data/images/storystuff/jdcomix0001.gif" style="position: absolute; top: 17%; width: 550px; height: 450px;">
         </div>
     </div>
+</body>
+
 </html>

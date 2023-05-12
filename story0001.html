@@ -33,9 +33,21 @@
             font-family: 'LongPix';
             src: url('https://brushiol.github.io/jubilantduplicate/data/fonts/longpixel.ttf');
         }
+		/*
+        @font-face {
+            font-family: 'SmallPix';
+            src: url('https://brushiol.github.io/jubilantduplicate/data/fonts/smallpixel.ttf');
+        }
+		
+        @font-face {
+            font-family: 'Pixelbug';
+            src: url('https://brushiol.github.io/jubilantduplicate/data/fonts/pixelbug.ttf');
+        }*/
 
         body {
             font-family: 'LongPix', monospace;
+			/*font-family: 'SmallPix', monospace;
+            font-family: 'Pixelbug', monospace;*/
         }
     </style>
 
@@ -51,12 +63,24 @@
             }
         div.container p {
             position: relative;
-            top: -35px;
+            top: -30px;
             font-family: LongPix;
-            font-size: 45px;
+            font-size: 40px;
             text-decoration: none;
-            text-transform: none;
-            color: #000000;
+            text-transform: none; 
+            color: black;
+        }
+        div.container a {
+            position: relative;
+            top: 612px;
+            left: 250px;
+            font-family: LongPix;
+            font-size: 40px;
+            text-decoration: none;
+			border: 5px solid green ; 
+            text-transform: none;  
+            color: black;
+    		padding: 5px 27px;
         }
         div.boxbax {
                 display: flex;
@@ -73,10 +97,11 @@
 <body style="background-color: dimgray;">
     <div class="container" style="text-align: center;">
         <div class="boxbax" style="background-color: darkgray; display:; height: 950px; width: 800px;">
-        <div class="lightbox" style="background-color: lightgray; display:; height: 850px; width: 550px;">
+        <div class="lightbox" style="background-color: lightgray; display:; height: 850px; width: 600px;">
             <p>Jubilant Duplicate</p>
-            <img src="https://brushiol.github.io/jubilantduplicate/data/images/storystuff/jdcomix0001.gif" style="position: absolute; top:12%; width: 550px; height: 450px;">
-        </div>
+			<a href="url">&gt</a>
+            <img src="https://brushiol.github.io/jubilantduplicate/data/images/storystuff/jdcomix0001.gif" style="position: absolute; top:9%; right:8.5%; width: 500px; height: 400px;">
+       </div>
     </div>
     </div>
 </body>
